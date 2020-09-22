@@ -1,0 +1,6 @@
+framework module Pods_Swift5GoogleAdmob {
+  umbrella header "Pods-Swift5GoogleAdmob-umbrella.h"
+
+  export *
+  module * { export * }
+}
