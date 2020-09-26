@@ -9,7 +9,7 @@
 import UIKit
 import GoogleMobileAds
 
-class TableViewController: UITableViewController {
+class TableViewController: UITableViewController,GADBannerViewDelegate,GADInterstitialDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
