@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        BannerView.adUnitID = ""
+        BannerView.adUnitID = "ca-app-pub-3940256099942544~1458002511"
         BannerView.rootViewController = self
         BannerView.load(GADRequest())
         
